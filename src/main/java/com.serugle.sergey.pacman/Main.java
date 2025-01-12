@@ -1,4 +1,4 @@
-package org.example;
+package com.serugle.sergey.pacman;
 
 import javax.swing.*;
 

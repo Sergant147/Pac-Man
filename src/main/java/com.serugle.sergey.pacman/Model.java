@@ -1,5 +1,5 @@
 
-package org.example;
+package com.serugle.sergey.pacman;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
