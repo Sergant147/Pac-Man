@@ -72,16 +72,16 @@ public class Model extends JPanel implements ActionListener {
     }
 
     private void loadImages() {
-        down = new ImageIcon("src/main/java/org/example/images/down.gif").getImage();
-        up = new ImageIcon("src/main/java/org/example/images/up.gif").getImage();
-        left = new ImageIcon("src/main/java/org/example/images/left.gif").getImage();
-        right = new ImageIcon("src/main/java/org/example/images/right.gif").getImage();
-        heart = new ImageIcon("src/main/java/org/example/images/heart.png").getImage();
-        img = new ImageIcon("src/main/java/org/example/images/cherry.png").getImage();
+        down = new ImageIcon("src/main/com/serugle/sergey/pacman/images/down.gif").getImage();
+        up = new ImageIcon("src/main/com/serugle/sergey/pacman/images/up.gif").getImage();
+        left = new ImageIcon("src/main/com/serugle/sergey/pacman/images/left.gif").getImage();
+        right = new ImageIcon("src/main/com/serugle/sergey/pacman/images/right.gif").getImage();
+        heart = new ImageIcon("src/main/com/serugle/sergey/pacman/images/heart.png").getImage();
+        img = new ImageIcon("src/main/com/serugle/sergey/pacman/images/cherry.png").getImage();
         ghostImages = new ImageIcon[6];
         ghostPossible = new String[]{"ghost1", "ghost2", "ghost3", "ghost4"};
         for (int i = 0; i < 6; i++){
-            ghostImages[i] = new ImageIcon("src/main/java/org/example/images/"+ghostPossible[new Random().nextInt(0, 4)]+".png");
+            ghostImages[i] = new ImageIcon("src/main/com/serugle/sergey/pacman/images/"+ghostPossible[new Random().nextInt(0, 4)]+".png");
         }
     }
 
